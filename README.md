@@ -10,9 +10,7 @@ Below is a breakdown of the full workflow.
 
 🔍 1. Data Sourcing
 
-Market capitalization data was extracted from reliable public sources:
-
-CompaniesMarketCap
+Market capitalization data was extracted from reliable public sources: CompaniesMarketCap
 
 The raw data included mixed units like billions (B) and trillions (T), as well as symbols like $.
 
@@ -23,7 +21,6 @@ The Market Cap column contained inconsistent formats:
 $4.718 T
 $912.39 B
 $1.085 T
-
 
 Power BI cannot evaluate these directly, so Power Query was used to:
 
